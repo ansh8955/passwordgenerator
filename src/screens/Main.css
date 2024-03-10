@@ -1,11 +1,11 @@
 .container{
 
     text-align: center;
-    width: 60%;
+    width: 80%;
     background-color: rgb(187, 228, 255);
     display: flex;
     flex-direction: column;
-    margin: 0 20%;
+    margin: 0 10%;
 }
 
 
@@ -57,7 +57,10 @@ justify-content: space-evenly;
 
 Button{
     padding: 1%;
-    margin: 0% 20%;
-    width: 60%;
-    margin-bottom:2%
+    /* margin: 0% 25%;
+    width: 50%; */
+    margin-bottom:2%;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
 }
