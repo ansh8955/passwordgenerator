@@ -65,3 +65,14 @@ Button{
     margin: 0;
 }
 
+
+@media only screen and  (240px<=width<=768px){
+
+
+    .container{
+        margin: 0 0;
+        width: 90%;
+        padding: 1rem;
+    }
+}
+    

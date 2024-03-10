@@ -157,7 +157,7 @@ const notify =(SUCCESS_MESSAGE,error = false)=>{
     <input type='number' 
     id='pass-length' 
     name='pass-length' 
-    max="50" min="8"
+    max="20" min="8"
     defaultValue={passwordLength}
     onChange={(e)=>{
 
