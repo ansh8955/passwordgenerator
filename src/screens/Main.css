@@ -1,13 +1,16 @@
 .container{
-
+padding: 2rem;
     text-align: center;
-    width: 80%;
-    background-color: rgb(187, 228, 255);
+    width: 50%;
+   /* border: solid 1px black; */
     display: flex;
     flex-direction: column;
-    margin: 0 10%;
+    margin: 0 25%;
+    box-shadow: #00000005 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color:#E5F8F6;
+    /* color: white; */
+    border-radius: 0.8rem;
 }
-
 
 .passworddiv{
     width: 80%;
@@ -31,32 +34,11 @@ justify-content: space-evenly;
 
 .passlength, .Uppercase, .Lowercase, .Number, .Symbol{
     display: flex;
-    justify-content: space-evenly;
-}
-
-
-
-
-.Uppercase input{
-    margin-left: 5%;
-}
-.passlength input {
-    margin-left:7% ;
-}
-
-.Lowercase input{
-    margin-left: 5%;
-}
-.Symbol input {
-    margin-left: 11.9%;
-}
-
-.Number input{
-    margin-left: 11.9%;
+    justify-content: space-between;
 }
 
 Button{
-    padding: 1%;
+    padding: 3%;
     /* margin: 0% 25%;
     width: 50%; */
     margin-bottom:2%;
@@ -64,3 +46,17 @@ Button{
     border: none;
     cursor: pointer;
 }
+
+.generate-btn{
+    background-color: #16A086;
+}
+
+.copybtn{
+    background-color: rgb(238, 238, 255);
+}
+
+.passworddiv h1{
+
+    margin: 0;
+}
+
