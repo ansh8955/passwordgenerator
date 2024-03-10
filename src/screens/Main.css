@@ -47,12 +47,17 @@ Button{
     cursor: pointer;
 }
 
-.generate-btn{
+.generate-btn:hover{
     background-color: #16A086;
 }
 
+.generate-btn{
+    background-color: #4affde;
+}
+
 .copybtn{
-    background-color: rgb(238, 238, 255);
+    background-color: #a2ecfffb;
+
 }
 
 .passworddiv h1{
