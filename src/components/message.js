@@ -1,0 +1,1 @@
+export const SUCCESS_MESSAGE ='Password Successfully Copied to the Clipboard'
