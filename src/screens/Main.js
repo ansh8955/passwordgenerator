@@ -230,8 +230,8 @@ console.log(e.target)
 
 </div>
 </div>
-<button onClick={generatePassword}   className='generate-btn'>Generate Password</button>
-<button onClick={copypass} className='copybtn'>
+<button onClick={generatePassword}   className='gecd pad1nerate-btn'>Generate Password</button>
+<button onClick={copypass} className='generate-btn'>
     <FaRegCopy />
     </button>
 <ToastContainer
